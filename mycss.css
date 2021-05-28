@@ -1,0 +1,189 @@
+.caixa {
+        background: #da251c;
+        height: 330px;
+        width: 300px;
+        padding-top: 20px;
+        margin: 10px;
+      }
+      .caixa2 {
+        height: 60px;
+        width: 350px;
+        padding: 10px;
+      }
+      .botao {
+        height: 50px;
+        width: 180px;
+        background: #981913;
+        color: white;
+        border-radius: 30px;        
+      }
+      button:hover.botao2{
+        background-color: #71120e;
+        color: white;
+      }
+      .textesp {
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+      .carousel-item {
+        height: 100vh;
+      }
+      .mycarousel-caption {
+        position: absolute;
+        top: 40%;
+      }
+      body {
+        font-family: Helvetica,Arial,sans-serif;
+      }
+
+      /*  Carousel
+      -----------------------------------*/
+      .image-background-color {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+      @media (max-width: 575.98px) { 
+        .mycarousel-caption h1 {
+          font-size: 25px !important;
+        }
+        .mycarousel-caption p {
+          font-size: 15px !important;
+        }
+        .mycarousel-caption .btn {
+          font-size: 14px;
+          height: 38px !important; 
+          width: 150px !important;
+        }
+      }
+
+      /*  Barra de navegação
+      -----------------------------------*/
+      nav.navbar-mynav {
+        padding: 5px 60px;
+      }
+
+      .navbar-light .navbar-nav .nav-link {
+        color: #981913 !important;
+      }
+      .navbar-light .navbar-nav .nav-link:hover {
+        color: #dc3545 !important;
+      }
+      .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(255,255,255,.1);
+      }
+      @media (max-width: 575.98px) {
+        nav .col-md-6{
+          display: flex;
+          justify-content: center;
+        }
+        nav .collapse ul {
+          justify-content: center;
+        }
+      }
+      
+
+      /*  Rodapé
+      -----------------------------------*/
+      footer {
+        background: #981913;
+        padding: 60px 0px 10px 0px;
+        position: relative;
+      }
+      footer h4 {
+        color: white;
+        font-size: 1.3em;
+      }
+      footer .navbar-nav a {
+        color: white;
+        text-decoration: none;
+      }
+      footer .navbar-nav a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      footer p{
+        color: white;
+      }
+      #social {
+        font-size: 1.3rem;
+        color: #6c757d;
+      }
+      #social:hover {
+        color: white;
+      }
+      
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  footer h4 {
+    font-size: 0,2em;
+  }
+  footer p{
+    font-size: 0,2em;
+  }
+  #img-logo {
+    height: 2rem;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+  footer img {
+    padding-bottom: 10px;
+  }
+  footer .col-md-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  } 
+  footer .col-md-6 {
+    display: flex;
+    justify-content: center !important;
+    padding-top: 0.6rem;
+  }    
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+  footer {
+    align-items: center;
+  }
+  footer h4 {
+    font-size: 0,2em;
+  }
+  footer p{
+    font-size: 12px;
+  }
+
+  header .nav-link{
+    font-size: 12px;
+  }
+  header .btn{
+    font-size: 12px;
+    height: 30px !important; 
+    width: 150px !important;
+  }
+  #img-logo {
+    height: 2rem;
+  }
+ }
+
+ @media (min-width: 992.98px) { 
+  #img-logo {
+    height: 4rem;
+  }
+ }
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+  
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+  
+ }
